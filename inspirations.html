@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inspirations — L'encre de mes nuits</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="masthead">
+    <div class="container">
+      <h1><a href="index.html">L'encre de mes nuits</a></h1>
+      <p class="subtitle">Verses in the making</p>
+      <nav class="main-nav">
+        <a href="index.html">poems</a>
+        <a href="inspirations.html" class="active">inspirations</a>
+        <a href="about.html">about</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <p class="loved-intro">
+      A constellation of poems by other writers that I keep returning to —<br>
+      gathered here with their authors, their themes, and sometimes a few words.
+    </p>
+
+    <!-- =================== FILTERS =================== -->
+    <div class="loved-filters">
+      <div class="loved-filter-group">
+        <span class="label">Author</span>
+        <button class="filter-btn active" data-filter="author" data-value="all">all</button>
+        <button class="filter-btn" data-filter="author" data-value="pablo-neruda">Pablo Neruda</button>
+        <button class="filter-btn" data-filter="author" data-value="emily-dickinson">Emily Dickinson</button>
+        <button class="filter-btn" data-filter="author" data-value="alfonsina-storni">Alfonsina Storni</button>
+        <button class="filter-btn" data-filter="author" data-value="nizar-qabbani">Nizar Qabbani</button>
+        <button class="filter-btn" data-filter="author" data-value="paul-eluard">Paul Éluard</button>
+        <button class="filter-btn" data-filter="author" data-value="ida-faubert">Ida Faubert</button>
+        <button class="filter-btn" data-filter="author" data-value="willy-ramirez">Willy Ramírez</button>
+        <button class="filter-btn" data-filter="author" data-value="charles-baudelaire">Charles Baudelaire</button>
+        <button class="filter-btn" data-filter="author" data-value="maya-angelou">Maya Angelou</button>
+        <button class="filter-btn" data-filter="author" data-value="mary-oliver">Mary Oliver</button>
+        <button class="filter-btn" data-filter="author" data-value="arthur-rimbaud">Arthur Rimbaud</button>
+        <button class="filter-btn" data-filter="author" data-value="paul-verlaine">Paul Verlaine</button>
+        <button class="filter-btn" data-filter="author" data-value="alejandra-pizarnik">Alejandra Pizarnik</button>
+        <button class="filter-btn" data-filter="author" data-value="cesar-vallejo">César Vallejo</button>
+        <button class="filter-btn" data-filter="author" data-value="robert-frost">Robert Frost</button>
+        <button class="filter-btn" data-filter="author" data-value="dylan-thomas">Dylan Thomas</button>
+        <button class="filter-btn" data-filter="author" data-value="jacques-prevert">Jacques Prévert</button>
+        <button class="filter-btn" data-filter="author" data-value="tyehimba-jess">Tyehimba Jess</button>
+      </div>
+      <div class="loved-filter-group">
+        <span class="label">Theme</span>
+        <button class="filter-btn active" data-filter="theme" data-value="all">all</button>
+        <button class="filter-btn" data-filter="theme" data-value="love">love</button>
+        <button class="filter-btn" data-filter="theme" data-value="longing">longing</button>
+        <button class="filter-btn" data-filter="theme" data-value="identity">identity</button>
+        <button class="filter-btn" data-filter="theme" data-value="solitude">solitude</button>
+        <button class="filter-btn" data-filter="theme" data-value="defiance">defiance</button>
+        <button class="filter-btn" data-filter="theme" data-value="silence">silence</button>
+        <button class="filter-btn" data-filter="theme" data-value="death">death</button>
+        <button class="filter-btn" data-filter="theme" data-value="time">time</button>
+        <button class="filter-btn" data-filter="theme" data-value="nature">nature</button>
+        <button class="filter-btn" data-filter="theme" data-value="beauty">beauty</button>
+        <button class="filter-btn" data-filter="theme" data-value="memory">memory</button>
+        <button class="filter-btn" data-filter="theme" data-value="grief">grief</button>
+      </div>
+    </div>
+
+    <!-- =================== LOVED POEMS LIST =================== -->
+    <ul class="loved-list">
+
+      <li data-author="pablo-neruda" data-themes="love">
+        <div class="loved-author">Pablo Neruda</div>
+        <div class="loved-title">
+          <a href="inspirations/neruda-sonnet-xvii.html">Soneto XVII / Sonnet XVII</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">love</span>
+        </div>
+      </li>
+
+      <li data-author="emily-dickinson" data-themes="identity solitude">
+        <div class="loved-author">Emily Dickinson</div>
+        <div class="loved-title">
+          <a href="inspirations/dickinson-im-nobody.html">I'm Nobody! Who are you?</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">identity</span>
+          <span class="tag">solitude</span>
+        </div>
+      </li>
+
+      <li data-author="emily-dickinson" data-themes="death time">
+        <div class="loved-author">Emily Dickinson</div>
+        <div class="loved-title">
+          <a href="inspirations/dickinson-because-i-could-not-stop.html">Because I could not stop for Death</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">death</span>
+          <span class="tag">time</span>
+        </div>
+      </li>
+
+      <li data-author="alfonsina-storni" data-themes="identity defiance">
+        <div class="loved-author">Alfonsina Storni</div>
+        <div class="loved-title">
+          <a href="inspirations/storni-tu-me-quieres-blanca.html">Tú me quieres blanca</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">identity</span>
+          <span class="tag">defiance</span>
+        </div>
+      </li>
+
+      <li data-author="alfonsina-storni" data-themes="love longing">
+        <div class="loved-author">Alfonsina Storni</div>
+        <div class="loved-title">
+          <a href="inspirations/storni-dulce-tortura.html">Dulce tortura / Sweet Torture</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">love</span>
+          <span class="tag">longing</span>
+        </div>
+      </li>
+
+      <li data-author="nizar-qabbani" data-themes="love longing nature">
+        <div class="loved-author">Nizar Qabbani</div>
+        <div class="loved-title">
+          <a href="inspirations/qabbani-in-the-summer.html">In the Summer</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">love</span>
+          <span class="tag">longing</span>
+          <span class="tag">nature</span>
+        </div>
+      </li>
+
+      <li data-author="pablo-neruda" data-themes="love longing">
+        <div class="loved-author">Pablo Neruda</div>
+        <div class="loved-title">
+          <a href="inspirations/neruda-la-pregunta.html">La pregunta / The Question</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">love</span>
+          <span class="tag">longing</span>
+        </div>
+      </li>
+
+      <li data-author="paul-eluard" data-themes="love silence">
+        <div class="loved-author">Paul Éluard</div>
+        <div class="loved-title">
+          <a href="inspirations/eluard-poeme-xxi.html">Poème XXI</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">love</span>
+          <span class="tag">silence</span>
+        </div>
+      </li>
+
+      <li data-author="ida-faubert" data-themes="nature beauty">
+        <div class="loved-author">Ida Faubert</div>
+        <div class="loved-title">
+          <a href="inspirations/faubert-soir-tropical.html">Soir tropical</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">nature</span>
+          <span class="tag">beauty</span>
+        </div>
+      </li>
+
+      <li data-author="willy-ramirez" data-themes="identity silence defiance">
+        <div class="loved-author">Willy Ramírez</div>
+        <div class="loved-title">
+          <a href="inspirations/ramirez-no-mas-poesia.html">No más poesía…</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">identity</span>
+          <span class="tag">silence</span>
+          <span class="tag">defiance</span>
+        </div>
+      </li>
+
+      <li data-author="charles-baudelaire" data-themes="longing memory beauty">
+        <div class="loved-author">Charles Baudelaire</div>
+        <div class="loved-title">
+          <a href="inspirations/baudelaire-a-une-passante.html">À une passante</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">longing</span>
+          <span class="tag">memory</span>
+          <span class="tag">beauty</span>
+        </div>
+      </li>
+
+      <li data-author="charles-baudelaire" data-themes="identity solitude">
+        <div class="loved-author">Charles Baudelaire</div>
+        <div class="loved-title">
+          <a href="inspirations/baudelaire-lalbatros.html">L'albatros</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">identity</span>
+          <span class="tag">solitude</span>
+        </div>
+      </li>
+
+      <li data-author="maya-angelou" data-themes="identity defiance">
+        <div class="loved-author">Maya Angelou</div>
+        <div class="loved-title">
+          <a href="inspirations/angelou-phenomenal-woman.html">Phenomenal Woman</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">identity</span>
+          <span class="tag">defiance</span>
+        </div>
+      </li>
+
+      <li data-author="maya-angelou" data-themes="defiance identity">
+        <div class="loved-author">Maya Angelou</div>
+        <div class="loved-title">
+          <a href="inspirations/angelou-still-i-rise.html">Still I Rise</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">defiance</span>
+          <span class="tag">identity</span>
+        </div>
+      </li>
+
+      <li data-author="mary-oliver" data-themes="nature solitude beauty">
+        <div class="loved-author">Mary Oliver</div>
+        <div class="loved-title">
+          <a href="inspirations/oliver-wild-geese.html">Wild Geese</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">nature</span>
+          <span class="tag">solitude</span>
+          <span class="tag">beauty</span>
+        </div>
+      </li>
+
+      <li data-author="arthur-rimbaud" data-themes="solitude beauty memory">
+        <div class="loved-author">Arthur Rimbaud</div>
+        <div class="loved-title">
+          <a href="inspirations/rimbaud-ma-boheme.html">Ma Bohème</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">solitude</span>
+          <span class="tag">beauty</span>
+          <span class="tag">memory</span>
+        </div>
+      </li>
+
+      <li data-author="paul-verlaine" data-themes="nature memory beauty">
+        <div class="loved-author">Paul Verlaine</div>
+        <div class="loved-title">
+          <a href="inspirations/verlaine-soleils-couchants.html">Soleils couchants</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">nature</span>
+          <span class="tag">memory</span>
+          <span class="tag">beauty</span>
+        </div>
+      </li>
+
+      <li data-author="paul-verlaine" data-themes="love nature silence">
+        <div class="loved-author">Paul Verlaine</div>
+        <div class="loved-title">
+          <a href="inspirations/verlaine-cest-lextase.html">C'est l'extase langoureuse</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">love</span>
+          <span class="tag">nature</span>
+          <span class="tag">silence</span>
+        </div>
+      </li>
+
+      <li data-author="alejandra-pizarnik" data-themes="solitude silence identity">
+        <div class="loved-author">Alejandra Pizarnik</div>
+        <div class="loved-title">
+          <a href="inspirations/pizarnik-la-de-los-ojos-abiertos.html">La de los ojos abiertos</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">solitude</span>
+          <span class="tag">silence</span>
+          <span class="tag">identity</span>
+        </div>
+      </li>
+
+      <li data-author="cesar-vallejo" data-themes="identity solitude">
+        <div class="loved-author">César Vallejo</div>
+        <div class="loved-title">
+          <a href="inspirations/vallejo-que-me-da.html">¿Qué me da, que me azoto con la línea…</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">identity</span>
+          <span class="tag">solitude</span>
+        </div>
+      </li>
+
+      <li data-author="robert-frost" data-themes="time memory identity">
+        <div class="loved-author">Robert Frost</div>
+        <div class="loved-title">
+          <a href="inspirations/frost-road-not-taken.html">The Road Not Taken</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">time</span>
+          <span class="tag">memory</span>
+          <span class="tag">identity</span>
+        </div>
+      </li>
+
+      <li data-author="dylan-thomas" data-themes="death defiance time">
+        <div class="loved-author">Dylan Thomas</div>
+        <div class="loved-title">
+          <a href="inspirations/thomas-do-not-go-gentle.html">Do not go gentle into that good night</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">death</span>
+          <span class="tag">defiance</span>
+          <span class="tag">time</span>
+        </div>
+      </li>
+
+      <li data-author="jacques-prevert" data-themes="love memory">
+        <div class="loved-author">Jacques Prévert</div>
+        <div class="loved-title">
+          <a href="inspirations/prevert-paris-de-nuit.html">Paris de nuit</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">love</span>
+          <span class="tag">memory</span>
+        </div>
+      </li>
+
+      <li data-author="pablo-neruda" data-themes="love longing memory grief">
+        <div class="loved-author">Pablo Neruda</div>
+        <div class="loved-title">
+          <a href="inspirations/neruda-poema-20.html">Poema 20</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">love</span>
+          <span class="tag">longing</span>
+          <span class="tag">memory</span>
+          <span class="tag">grief</span>
+        </div>
+      </li>
+
+      <li data-author="emily-dickinson" data-themes="solitude time">
+        <div class="loved-author">Emily Dickinson</div>
+        <div class="loved-title">
+          <a href="inspirations/dickinson-not-knowing.html">Not knowing when the Dawn will come</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">solitude</span>
+          <span class="tag">time</span>
+        </div>
+      </li>
+
+      <li data-author="charles-baudelaire" data-themes="love longing beauty">
+        <div class="loved-author">Charles Baudelaire</div>
+        <div class="loved-title">
+          <a href="inspirations/baudelaire-linvitation-au-voyage.html">L'invitation au voyage</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">love</span>
+          <span class="tag">longing</span>
+          <span class="tag">beauty</span>
+        </div>
+      </li>
+
+      <li data-author="tyehimba-jess" data-themes="identity defiance">
+        <div class="loved-author">Tyehimba Jess</div>
+        <div class="loved-title">
+          <a href="inspirations/jess-blind-boone-pianola-blues.html">Blind Boone's Pianola Blues</a>
+        </div>
+        <div class="loved-tags">
+          <span class="tag">identity</span>
+          <span class="tag">defiance</span>
+        </div>
+      </li>
+
+    </ul>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      
+    </div>
+  </footer>
+
+  <script>
+    const activeFilters = { author: 'all', theme: 'all' };
+
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const type = btn.dataset.filter;
+        const value = btn.dataset.value;
+        document.querySelectorAll(`.filter-btn[data-filter="${type}"]`).forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeFilters[type] = value;
+        applyFilters();
+      });
+    });
+
+    function applyFilters() {
+      document.querySelectorAll('.loved-list > li').forEach(item => {
+        const author = item.dataset.author || '';
+        const themes = (item.dataset.themes || '').split(/\s+/);
+        const authorOk = activeFilters.author === 'all' || activeFilters.author === author;
+        const themeOk = activeFilters.theme === 'all' || themes.includes(activeFilters.theme);
+        item.classList.toggle('hidden', !(authorOk && themeOk));
+      });
+    }
+  </script>
+
+</body>
+</html>
