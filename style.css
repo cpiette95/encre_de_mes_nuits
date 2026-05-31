@@ -219,8 +219,8 @@ article.poem {
 }
 
 .poem-header .poem-thumb img {
-  width: 150%;
-  height: 150%;
+  width: 100%;
+  height: auto;
   display: block;
   border: 1px solid var(--rule);
   padding: 0.3rem;
@@ -241,7 +241,7 @@ article.poem {
   font-style: italic;
   font-size: 0.8rem;
   color: var(--ink-soft);
-  text-align: right;
+  text-align: center;
   margin-top: 0.5rem;
 }
 
