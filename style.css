@@ -241,7 +241,7 @@ article.poem {
   font-style: italic;
   font-size: 0.8rem;
   color: var(--ink-soft);
-  text-align: center;
+  text-align: right;
   margin-top: 0.5rem;
 }
 
