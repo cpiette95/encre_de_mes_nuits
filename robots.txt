@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cpiette95.github.io/encre_de_mes_nuits/sitemap.xml
