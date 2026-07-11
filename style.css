@@ -220,7 +220,8 @@ article.poem {
 
 .poem-header .poem-thumb img {
   width: 100%;
-  height: auto;
+  max-height: 200px;
+  object-fit: cover;
   display: block;
   border: 1px solid var(--rule);
   padding: 0.3rem;
